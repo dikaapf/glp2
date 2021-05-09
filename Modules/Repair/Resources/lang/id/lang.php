@@ -148,7 +148,7 @@ return [
 "repair_status_label"=>"Label status perbaikan",
 "pick_up_on_site_addr"=>"Ambil / Alamat di lokasi",
 "job_sheets_by_status"=>"Estimate menurut status",
-"job_sheets_by_service_staff"=>"Estimate menurut staf layanan",
+"job_sheets_by_service_staff"=>"Estimate menurut Staf Teknisi",
 "total_job_sheets"=>"Jumlah Estimate",
 "job_sheet_or_invoice_no"=>"Nomor Estimate. / Nomor Invoice .",
 "uploaded_image_for"=>"Gambar yang diunggah untuk :job_sheet_no",
