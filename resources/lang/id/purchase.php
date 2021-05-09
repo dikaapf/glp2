@@ -11,7 +11,7 @@ return [
     |
     */
 
-    'supplier' => 'Pemasok',
+    'supplier' => 'Vendor',
     'ref_no' => 'Nomor Referensi',
     'business_location' => 'Lokasi Bisnis',
     'purchases' => 'Pembelian',

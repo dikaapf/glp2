@@ -25,7 +25,7 @@ return [
     'bank_transfer' => 'Transfer Bank',
     'other_payments' => 'Pembayaran Lainnya',
     'total_sales' => 'Total Penjualan',
-    'total_cash' => 'Total Tunai',
+    'total_cash' => 'Total Bayar',
     'current_register' => 'Register saat ini',
     'close_register' => 'Register ditutup',
     'total_card_slips' => 'Total slip kartu',

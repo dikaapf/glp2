@@ -13,7 +13,7 @@ return [
 
     'product_stock_alert' => "Produk stok sudah rendah.<br/><small class='text-muted'>Berdasarkan kuantitas peringatan produk yang diatur di layar tambah produk.<br> Beli produk ini sebelum stok terakhir.</small>",
 
-    'payment_dues' => "Pembayaran tertunda untuk pembelian. <br/><small class='text-muted'>Berdasarkan jangka waktu pembayaran pemasok. <br/> Menampilkan pembayaran yang harus dibayar dalam 7 hari atau kurang.</small>",
+    'payment_dues' => "Pembayaran tertunda untuk pembelian. <br/><small class='text-muted'>Berdasarkan jangka waktu pembayaran vendor. <br/> Menampilkan pembayaran yang harus dibayar dalam 7 hari atau kurang.</small>",
 
     'input_tax' => 'Total pajak yang dipungut untuk penjualan dalam periode waktu yang dipilih.',
 
@@ -29,7 +29,7 @@ return [
 
     'no_of_products_for_trending_products' => 'Jumlah produk paling terlaris akan dibandingkan dalam bagan di bawah ini.',
 
-    'top_trending_products' => "Produk terlaris dari toko Anda. <br/><small class='text-muted'>Terapkan filter untuk mengetahui produk terlaris dalam Kategori, Merek, Lokasi Bisnis dll.</small>",
+    'top_trending_products' => "Produk terlaris dari toko Anda. <br/><small class='text-muted'>Terapkan filter untuk mengetahui produk terlaris dalam Kategori, Jenis Kerusakan, Lokasi Bisnis dll.</small>",
 
     'sku' => "ID produk unik atau Penyimpanan stok satuan <br><br>Biarkan kosong untuk membuat sku secara otomatis.<br><small class='text-muted'>Anda dapat memodifikasi awalan sku dalam pengaturan Bisnis.</small>",
 
