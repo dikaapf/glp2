@@ -280,7 +280,7 @@
 			@component('components.widget', ['class' => 'box-solid'])
 				<div class="col-sm-10 col-sm-offset-1">
 					<div class="form-group">
-						<div class="input-group">
+						<!-- <div class="input-group">
 							<div class="input-group-btn">
 								<button type="button" class="btn btn-default bg-white btn-flat" data-toggle="modal" data-target="#configure_search_modal" title="{{__('lang_v1.configure_product_search')}}"><i class="fa fa-barcode"></i></button>
 							</div>
@@ -290,7 +290,7 @@
 							<span class="input-group-btn">
 								<button type="button" class="btn btn-default bg-white btn-flat pos_add_quick_product" data-href="{{action('ProductController@quickAdd')}}" data-container=".quick_add_product_modal"><i class="fa fa-plus-circle text-primary fa-lg"></i></button>
 							</span>
-						</div>
+						</div> -->
 					</div>
 				</div>
 
