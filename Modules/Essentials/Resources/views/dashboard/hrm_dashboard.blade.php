@@ -38,9 +38,9 @@
                 </div>
 	        </div>
 		</div>
-		@if(!$is_admin)
+		<!-- @if(!$is_admin)
         	@include('essentials::dashboard.holidays')
-     	@endif
+     	@endif -->
 	</div>
 	@if($is_admin)
 	<hr>

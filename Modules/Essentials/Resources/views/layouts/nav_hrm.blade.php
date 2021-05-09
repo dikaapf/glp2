@@ -28,7 +28,8 @@
                     @if(auth()->user()->can('essentials.view_allowance_and_deduction') || auth()->user()->can('essentials.add_allowance_and_deduction'))
                         <li @if(request()->segment(2) == 'allowance-deduction') class="active" @endif><a href="{{action('\Modules\Essentials\Http\Controllers\EssentialsAllowanceAndDeductionController@index')}}">@lang('essentials::lang.allowance_and_deduction')</a></li>
                     @endif
-                    <li @if(request()->segment(2) == 'payroll') class="active" @endif><a href="{{action('\Modules\Essentials\Http\Controllers\PayrollController@index')}}">@lang('essentials::lang.payroll')</a></li>
+                    <!-- Disable daftar gaji -->
+                    <!-- <li @if(request()->segment(2) == 'payroll') class="active" @endif><a href="{{action('\Modules\Essentials\Http\Controllers\PayrollController@index')}}">@lang('essentials::lang.payroll')</a></li> -->
 
                     <li @if(request()->segment(2) == 'holiday') class="active" @endif><a href="{{action('\Modules\Essentials\Http\Controllers\EssentialsHolidayController@index')}}">@lang('essentials::lang.holiday')</a></li>
                     @can('essentials.crud_department')
