@@ -106,7 +106,7 @@ return [
 "add_job_sheet"=>"Tambahkan Estimate",
 "job_sheet"=>"Estimate",
 "create"=>"Buat",
-"service_type"=>"Jenis layanan",
+"service_type"=>"Jenis Service",
 "carry_in"=>"Order Online",
 "pick_up"=>"Pengambilan",
 "on_site"=>"Order Di lokasi",
