@@ -294,7 +294,7 @@ return [
    'design' => 'Desain',
    'express_checkout_cash' => 'Bayar',
    'express_checkout_card' => 'Kartu',
-   'checkout_multi_pay' => 'DP',
+   'checkout_multi_pay' => 'Bayar',
    'tooltip_checkout_multi_pay' => 'Checkout menggunakan beberapa metode pembayaran',
    'tooltip_express_checkout_card' => 'Ekspres Checkout menggunakan kartu',
    'card_transaction_details' => 'Detail transaksi kartu',
