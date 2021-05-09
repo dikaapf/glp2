@@ -62,10 +62,10 @@ return [
     'barcode_settings.access' => 'Akses pengaturan barcode',
     'invoice_settings.access' => 'Akses pengaturan faktur',
 
-    'brand.view' => 'Lihat Jenis Kerusakan',
-    'brand.create' => 'Tambah Jenis Kerusakan',
-    'brand.update' => 'Edit Jenis Kerusakan',
-    'brand.delete' => 'Hapus Jenis Kerusakan',
+    'brand.view' => 'Lihat Brand',
+    'brand.create' => 'Tambah Brand',
+    'brand.update' => 'Edit Brand',
+    'brand.delete' => 'Hapus Brand',
 
     'tax_rate.view' => 'Lihat tarif pajak',
     'tax_rate.create' => 'Tambah tarif pajak',
@@ -83,7 +83,7 @@ return [
     'category.delete' => 'Hapus kategori',
     'select_all' => 'Pilih semua',
     'settings' => 'Pengaturan',
-    'brand' => 'Jenis Kerusakan',
+    'brand' => 'Brand',
     'tax_rate' => 'Tarif Pajak',
     'unit' => 'Satuan',
     'expense.access' => 'Akses biaya',

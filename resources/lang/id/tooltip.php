@@ -29,7 +29,7 @@ return [
 
     'no_of_products_for_trending_products' => 'Jumlah produk paling terlaris akan dibandingkan dalam bagan di bawah ini.',
 
-    'top_trending_products' => "Produk terlaris dari toko Anda. <br/><small class='text-muted'>Terapkan filter untuk mengetahui produk terlaris dalam Kategori, Jenis Kerusakan, Lokasi Bisnis dll.</small>",
+    'top_trending_products' => "Produk terlaris dari toko Anda. <br/><small class='text-muted'>Terapkan filter untuk mengetahui produk terlaris dalam Kategori, Brand, Lokasi Bisnis dll.</small>",
 
     'sku' => "ID produk unik atau Penyimpanan stok satuan <br><br>Biarkan kosong untuk membuat sku secara otomatis.<br><small class='text-muted'>Anda dapat memodifikasi awalan sku dalam pengaturan Bisnis.</small>",
 

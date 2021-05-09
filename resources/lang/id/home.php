@@ -14,7 +14,7 @@ return [
     'welcome_message' => 'Selamat datang :name,',
     'total_sell' => 'Total Penjualan',
     'total_purchase' => 'Total Pembelian',
-    'invoice_due' => 'Faktur jatuh tempo',
+    'invoice_due' => 'Invoice jatuh tempo',
     'purchase_due' => 'Pembelian jatuh tempo',
     'today' => 'Hari ini',
     'this_week' => 'Minggu ini',

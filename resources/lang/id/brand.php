@@ -11,16 +11,16 @@ return [
     |
     */
 
-    'brands' => 'Jenis Kerusakan',
-    'manage_your_brands' => 'Mengelola Jenis Kerusakan Anda',
-    'all_your_brands' => 'Semua Jenis Kerusakan',
+    'brands' => 'Brand',
+    'manage_your_brands' => 'Mengelola Brand Anda',
+    'all_your_brands' => 'Semua Brand',
     'note' => 'Catat',
-    'brand_name' => 'Nama jenis kerusakan',
+    'brand_name' => 'Nama Brand',
     'short_description' => 'Deskripsi singkat',
-    'added_success' => 'Jenis Kerusakan berhasil ditambahkan',
-    'updated_success' => 'Jenis Kerusakan berhasil diperbarui',
-    'deleted_success' => 'Jenis Kerusakan berhasil dihapus',
-    'add_brand' => 'Tambah Jenis Kerusakan',
-    'edit_brand' => 'Edit Jenis Kerusakan',
+    'added_success' => 'Brand berhasil ditambahkan',
+    'updated_success' => 'Brand berhasil diperbarui',
+    'deleted_success' => 'Brand berhasil dihapus',
+    'add_brand' => 'Tambah Brand',
+    'edit_brand' => 'Edit Brand',
 
 ];

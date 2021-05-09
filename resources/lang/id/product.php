@@ -20,7 +20,7 @@ return [
     'category' => 'Kategori',
     'sub_category' => 'Sub kategori',
     'unit' => 'Unit',
-    'brand' => 'Jenis Kerusakan',
+    'brand' => 'Brand',
     'tax' => 'Pajak',
     'sku' => 'SKU',
     'alert_quantity' => 'Peringatan kwantitas',
