@@ -12,7 +12,7 @@ return [
 "assign_repair_to" => "Tetapkan Perbaikan Ke",
 "serial_no" => "IMEI / SN",
 "model" => "Model",
-"pre_repair_checklist" => "Checklist Pra Perbaikan",
+"pre_repair_checklist" => "Checklist Kerusakan",
 "security" => "Keamanan",
 "pattern" => "Pola",
 "auto_send_notification" => "Pemberitahuan Kirim Otomatis",
