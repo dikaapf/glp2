@@ -1026,7 +1026,7 @@ return [
 "disable_credit_sale_button"=> "Nonaktifkan tombol penjualan kredit",
 "pay"=> "Bayar",
 "use_advance_balance"=> "Gunakan saldo di muka",
-"advance"=> "Bayar Cash",
+"advance"=> "Bayar DP",
 "advance_balance"=> "Saldo di Muka",
 "advance_payment"=> "Pembayaran di muka",
 "required_advance_balance_not_available"=> "Saldo DP yang diperlukan tidak tersedia",
