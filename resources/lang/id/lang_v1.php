@@ -277,7 +277,7 @@ return [
    'time_format' => 'Format Jam',
    '12_hour' => '12 Jam',
    '24_hour' => '24 Jam',
-   'list_quotations' => 'Daftar Estimate',
+   'list_quotations' => 'Daftar Service',
    'list_drafts' => 'Daftar Tagihan',
    'you_cannot_delete_this_contact' => "Tidak dapat menghapus kontak - Transaksi sudah ada pada kontak.",
    'enable_row' => 'Aktifkan Baris',
