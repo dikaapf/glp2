@@ -645,13 +645,14 @@
   <div class="box box-solid">
     <div class="box-body">
       <div class="row">
-        <div class="col-sm-3">
+        <!-- disable sub total -->
+        <!-- <div class="col-sm-3">
           <div class="form-group">
             {!! Form::label('sub_total_label', __('invoice.sub_total_label') . ':' ) !!}
             {!! Form::text('sub_total_label', $invoice_layout->sub_total_label, ['class' => 'form-control',
               'placeholder' => __('invoice.sub_total_label') ]); !!}
           </div>
-        </div>
+        </div> -->
         <div class="col-sm-3">
           <div class="form-group">
             {!! Form::label('discount_label', __('invoice.discount_label') . ':' ) !!}
@@ -688,13 +689,14 @@
               'placeholder' => __('invoice.total_due_label') ]); !!}
           </div>
         </div>
-        <div class="col-sm-3">
+        <!-- disable total paid -->
+        <!-- <div class="col-sm-3">
           <div class="form-group">
             {!! Form::label('paid_label', __('invoice.paid_label') . ':' ) !!}
             {!! Form::text('paid_label', $invoice_layout->paid_label, ['class' => 'form-control',
               'placeholder' => __('invoice.paid_label') ]); !!}
           </div>
-        </div>
+        </div> -->
         <div class="col-sm-3">
           <div class="form-group">
             <div class="checkbox">
