@@ -12,7 +12,7 @@ return [
     */
 
     'supplier' => 'Vendor',
-    'ref_no' => 'Nomor Referensi',
+    'ref_no' => 'Nomor Nota',
     'business_location' => 'Lokasi Bisnis',
     'purchases' => 'Pembelian',
     'add_payment' => 'Tambahkan pembayaran',
