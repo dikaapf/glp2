@@ -76,7 +76,7 @@ return [
 "type_name"=>"Type",
 "add_device_model"=>"Tambahkan Model Perangkat",
 "repair_checklist_tooltip"=>"Tambahkan Checklist beberapa pipa (|) yang dipisahkan <br> <b> Contoh: </b> Item 1 | Item 2 | Item 3",
-"device_model"=>"Model / Type",
+"device_model"=>"Model",
 "no_repair_check_list"=>"Tidak Ada Checklist Perbaikan",
 "show_device"=>"Tampilkan Perangkat",
 "device_label"=>"Label Perangkat",
