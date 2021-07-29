@@ -106,6 +106,13 @@
 						<b>@lang('repair::lang.device_model'):</b>
 						{{optional($job_sheet->deviceModel)->name}}
 						<br>
+						@if(!empty($job_sheet->custom_field_1))
+						<b>
+							{{$repair_settings['job_sheet_custom_field_1'] ?? __('lang_v1.custom_field', ['number' => 1])}}:
+						</b>
+							{{$job_sheet->custom_field_1}}
+						@endif
+						<br>
 						<b>@lang('repair::lang.serial_no'):</b>
 						{{$job_sheet->serial_no}}
 						<br>
@@ -177,7 +184,8 @@
 						{{optional($job_sheet->technician)->user_full_name}}
 					</td>
 				</tr>
-				<tr>
+				<!-- Disable Checklist -->
+				<!-- <tr>
 					<td colspan="2">
 						<b>
 							@lang('repair::lang.pre_repair_checklist'):
@@ -206,7 +214,7 @@
 	                        @endforeach
 	                    @endif
 					</td>
-				</tr>
+				</tr> -->
 				@if($job_sheet->service_type == 'pick_up' || $job_sheet->service_type == 'on_site')
 					<tr>
 						<td colspan="3">
@@ -253,18 +261,6 @@
 						@endif
 					</td>
 				</tr>
-				@if(!empty($job_sheet->custom_field_1))
-					<tr>
-						<td colspan="2">
-							<b>
-								{{$repair_settings['job_sheet_custom_field_1'] ?? __('lang_v1.custom_field', ['number' => 1])}}:
-							</b>
-						</td>
-						<td>
-							{{$job_sheet->custom_field_1}}
-						</td>
-					</tr>
-				@endif
 				@if(!empty($job_sheet->custom_field_2))
 					<tr>
 						<td colspan="2">
