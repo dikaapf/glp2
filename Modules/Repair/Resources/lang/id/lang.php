@@ -120,7 +120,7 @@ return [
 "assign_service_staff"=>"Operator / Teknisi Tugas",
 "repair_passcode"=>" Kunci Sandi / Pola",
 "view_job_sheet"=>"Lihat lembar kerja",
-"job_sheet_no"=>"Nomor Estimmate",
+"job_sheet_no"=>"Nomor Estimate",
 "job_sheet_prefix"=>"Awalan nomor lembar kerja",
 "technician"=>"Teknisi",
 "security_pattern"=>"Pola Keamanan",
