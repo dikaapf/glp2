@@ -108,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-12">
                         <div class="box box-solid">
                             <div class="box-header with-border">
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="form-group">
@@ -248,7 +248,7 @@
                     <div class="clearfix"></div>
                     <hr>
                     <div class="clearfix"></div>
-                    <div class="col-sm-4">
+                <!-- <div class="col-sm-4">
                     <div class="form-group">
                         @php
                             $custom_field_1_label = !empty($repair_settings['job_sheet_custom_field_1']) ? $repair_settings['job_sheet_custom_field_1'] : __('lang_v1.custom_field', ['number' => 1])
@@ -256,8 +256,8 @@
                         {!! Form::label('custom_field_1', $custom_field_1_label . ':') !!}
                         {!! Form::text('custom_field_1', $job_sheet->custom_field_1, ['class' => 'form-control']); !!}
                     </div>
-                </div>
-                <div class="col-sm-4">
+                </div> -->
+                <!-- <div class="col-sm-4">
                     <div class="form-group">
                         @php
                             $custom_field_2_label = !empty($repair_settings['job_sheet_custom_field_2']) ? $repair_settings['job_sheet_custom_field_2'] : __('lang_v1.custom_field', ['number' => 2])
@@ -265,8 +265,8 @@
                         {!! Form::label('custom_field_2', $custom_field_2_label . ':') !!}
                         {!! Form::text('custom_field_2', $job_sheet->custom_field_2, ['class' => 'form-control']); !!}
                     </div>
-                </div>
-                <div class="col-sm-4">
+                </div> -->
+                <!-- <div class="col-sm-4">
                     <div class="form-group">
                         @php
                             $custom_field_3_label = !empty($repair_settings['job_sheet_custom_field_3']) ? $repair_settings['job_sheet_custom_field_3'] : __('lang_v1.custom_field', ['number' => 3])
@@ -274,8 +274,8 @@
                         {!! Form::label('custom_field_3', $custom_field_3_label . ':') !!}
                         {!! Form::text('custom_field_3', $job_sheet->custom_field_3, ['class' => 'form-control']); !!}
                     </div>
-                </div>
-                <div class="col-sm-4">
+                </div> -->
+                <!-- <div class="col-sm-4">
                     <div class="form-group">
                         @php
                             $custom_field_4_label = !empty($repair_settings['job_sheet_custom_field_4']) ? $repair_settings['job_sheet_custom_field_4'] : __('lang_v1.custom_field', ['number' => 4])
@@ -283,8 +283,8 @@
                         {!! Form::label('custom_field_4', $custom_field_4_label . ':') !!}
                         {!! Form::text('custom_field_4', $job_sheet->custom_field_4, ['class' => 'form-control']); !!}
                     </div>
-                </div>
-                <div class="col-sm-4">
+                </div> -->
+                <!-- <div class="col-sm-4">
                     <div class="form-group">
                         @php
                             $custom_field_5_label = !empty($repair_settings['job_sheet_custom_field_5']) ? $repair_settings['job_sheet_custom_field_5'] : __('lang_v1.custom_field', ['number' => 5])
@@ -292,7 +292,7 @@
                         {!! Form::label('custom_field_5', $custom_field_5_label . ':') !!}
                         {!! Form::text('custom_field_5', $job_sheet->custom_field_5, ['class' => 'form-control']); !!}
                     </div>
-                </div>
+                </div> -->
                 </div>
                 <button type="submit" class="btn btn-primary pull-right">
                     @lang('messages.update')

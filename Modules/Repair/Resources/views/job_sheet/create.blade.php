@@ -106,13 +106,13 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
-                            {!! Form::label('device_model_id', __('repair::lang.device_model') . ':') !!}
+                            {!! Form::label('device_model_id', __('repair::lang.device_model') . ':') !!} <br>
                             {!! Form::select('device_model_id', $device_models, null, ['class' => 'form-control select2', 'placeholder' => __('messages.please_select')]); !!}
-                            <!-- {!! Form::textarea('device_model_id', null, ['class' => 'tags-look', 'rows' => 2]); !!}                       -->
+                            <!-- {!! Form::textarea('device_model_id', null, ['class' => 'tags-look', 'rows' => 1]); !!}                       -->
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-12">
                         <div class="box box-solid">
                             <div class="box-header with-border">
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="form-group">
@@ -386,42 +386,42 @@
                 getModelForDevice();
             });
             
-            $(document).on('change', '#device_model_id', function() {
-                getModelRepairChecklists();
-            });
+            // $(document).on('change', '#device_model_id', function() {
+                // getModelRepairChecklists();
+            // });
             
-            function getModelForDevice() {
-                var data = {
-                    device_id : $("#device_id").val(),
-                    brand_id: $("#brand_id").val()
-                };
+            // function getModelForDevice() {
+            //     var data = {
+            //         device_id : $("#device_id").val(),
+            //         brand_id: $("#brand_id").val()
+            //     };
 
-                $.ajax({
-                    method: 'GET',
-                    url: '/repair/get-device-models',
-                    dataType: 'html',
-                    data: data,
-                    success: function(result) {
-                        $('select#device_model_id').html(result);
-                    }
-                });
-            }
+            //     $.ajax({
+            //         method: 'GET',
+            //         url: '/repair/get-device-models',
+            //         dataType: 'html',
+            //         data: data,
+            //         success: function(result) {
+            //             $('select#device_model_id').html(result);
+            //         }
+            //     });
+            // }
 
-            function getModelRepairChecklists() {
-                console.log('here');
-                var data = {
-                        model_id : $("#device_model_id").val(),
-                    };
-                $.ajax({
-                    method: 'GET',
-                    url: '/repair/models-repair-checklist',
-                    dataType: 'html',
-                    data: data,
-                    success: function(result) {
-                        $(".append_checklists").html(result);
-                    }
-                });
-            }
+            // function getModelRepairChecklists() {
+            //     console.log('here');
+            //     var data = {
+            //             model_id : $("#device_model_id").val(),
+            //         };
+            //     $.ajax({
+            //         method: 'GET',
+            //         url: '/repair/models-repair-checklist',
+            //         dataType: 'html',
+            //         data: data,
+            //         success: function(result) {
+            //             $(".append_checklists").html(result);
+            //         }
+            //     });
+            // }
 
             $('input[type=radio][name=service_type]').on('ifChecked', function(){
               if ($(this).val() == 'pick_up' || $(this).val() == 'on_site') {
