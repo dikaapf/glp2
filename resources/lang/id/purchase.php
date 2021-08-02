@@ -64,7 +64,7 @@ return [
     'purchase_currency' => 'Mata Uang Pembelian',
     'p_exchange_rate' => 'Nilai tukar mata uang',
     'diff_purchase_currency_help' => 'Mata uang pembelian diatur ke <strong> :currency </strong>',
-    'list_purchase' => 'Daftar Pembelian',
+    'list_purchase' => 'List Semua Pembelian',
     'attach_document' => 'Lampirkan Dokumen',
     'download_document' => 'Unduh Dokumen',
     'max_file_size' => 'Ukuran file maks: :sizeMB',
