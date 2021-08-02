@@ -115,7 +115,7 @@ return [
 "estimated_cost"=>"Perkiraan Biaya",
 "repair_tc_conditions"=>"Syarat & ketentuan perbaikan",
 "product_configuration"=>"Kerusakan Umum",
-"problem_reported_by_customer"=>"Histori Kerusakan Customer",
+"problem_reported_by_customer"=>"Catatan & Kerusakan",
 "condition_of_product"=>"Kondisi, Warna, Acc Saat Diterima",
 "assign_service_staff"=>"Operator / Teknisi Tugas",
 "repair_passcode"=>" Kunci Sandi / Pola",
