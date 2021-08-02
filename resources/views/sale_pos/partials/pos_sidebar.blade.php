@@ -34,7 +34,9 @@
 	@endif
 
 	<!-- used in repair : filter for service/product -->
+	
 	<div class="col-md-6 hide" id="product_service_div">
+	<p><b>Wajib di Isi :<b></p>
 		{!! Form::select('is_enabled_stock', ['' => __('messages.all'), 'product' => __('sale.product'), 'service' => __('lang_v1.service')], null, ['id' => 'is_enabled_stock', 'class' => 'select2', 'name' => null, 'style' => 'width:100% !important']) !!}
 	</div>
 
