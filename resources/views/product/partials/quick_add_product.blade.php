@@ -128,20 +128,21 @@
               {!! Form::select('product_locations[]', $business_locations, $default_location, ['class' => 'form-control select2', 'multiple', 'id' => 'product_locations']); !!}
           </div>
         </div>
-        <div class="col-sm-4">
+        <!-- Disable Berat -->
+        <!-- <div class="col-sm-4">
           <div class="form-group">
             {!! Form::label('weight',  __('lang_v1.weight') . ':') !!}
             {!! Form::text('weight', null, ['class' => 'form-control', 'placeholder' => __('lang_v1.weight')]); !!}
           </div>
-        </div>
-        <div class="clearfix"></div>
+        </div> -->
+        <!-- <div class="clearfix"></div>
         <div class="col-sm-8">
           <div class="form-group">
             {!! Form::label('product_description', __('lang_v1.product_description') . ':') !!}
               {!! Form::textarea('product_description', null, ['class' => 'form-control']); !!}
           </div>
-        </div>
-        <div class="clearfix"></div>
+        </div> -->
+        <!-- <div class="clearfix"></div>
         <div class="col-sm-4">
           <div class="form-group">
             {!! Form::label('tax', __('product.applicable_tax') . ':') !!}
@@ -154,15 +155,15 @@
               {!! Form::select('tax_type', ['inclusive' => __('product.inclusive'), 'exclusive' => __('product.exclusive')], 'exclusive',
               ['class' => 'form-control select2', 'required']); !!}
           </div>
-        </div>
-        <div class="col-sm-4">
+        </div> -->
+        <!-- <div class="col-sm-4">
           <div class="checkbox">
           <br>
             <label>
               {!! Form::checkbox('enable_sr_no', 1, false, ['class' => 'input-icheck']); !!} <strong>@lang('lang_v1.enable_imei_or_sr_no')</strong>
             </label>@show_tooltip(__('lang_v1.tooltip_sr_no'))
           </div>
-        </div>
+        </div> -->
         <div class="clearfix"></div>
         @php
         $custom_labels = json_decode(session('business.custom_labels'), true);
@@ -171,42 +172,42 @@
         $product_custom_field3 = !empty($custom_labels['product']['custom_field_3']) ? $custom_labels['product']['custom_field_3'] : __('lang_v1.product_custom_field3');
         $product_custom_field4 = !empty($custom_labels['product']['custom_field_4']) ? $custom_labels['product']['custom_field_4'] : __('lang_v1.product_custom_field4');
       @endphp
-        <div class="col-sm-4">
+        <!-- <div class="col-sm-4">
           <div class="form-group">
             <br>
             <label>
               {!! Form::checkbox('not_for_selling', 1, false, ['class' => 'input-icheck']); !!} <strong>@lang('lang_v1.not_for_selling')</strong>
             </label> @show_tooltip(__('lang_v1.tooltip_not_for_selling'))
           </div>
-        </div>
+        </div> -->
         <div class="clearfix"></div>
-        <div class="col-sm-3">
+        <!-- <div class="col-sm-3">
           <div class="form-group">
             {!! Form::label('product_custom_field1',  $product_custom_field1 . ':') !!}
             {!! Form::text('product_custom_field1', null, ['class' => 'form-control', 'placeholder' => $product_custom_field1]); !!}
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-sm-3">
+        <!-- <div class="col-sm-3">
           <div class="form-group">
             {!! Form::label('product_custom_field2',  $product_custom_field2 . ':') !!}
             {!! Form::text('product_custom_field2',null, ['class' => 'form-control', 'placeholder' => $product_custom_field2]); !!}
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-sm-3">
+        <!-- <div class="col-sm-3">
           <div class="form-group">
             {!! Form::label('product_custom_field3',  $product_custom_field3 . ':') !!}
             {!! Form::text('product_custom_field3', null, ['class' => 'form-control', 'placeholder' => $product_custom_field3]); !!}
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-sm-3">
+        <!-- <div class="col-sm-3">
           <div class="form-group">
             {!! Form::label('product_custom_field4',  $product_custom_field4 . ':') !!}
             {!! Form::text('product_custom_field4', null, ['class' => 'form-control', 'placeholder' => $product_custom_field4]); !!}
           </div>
-        </div>
+        </div> -->
         <div class="clearfix"></div>
         @if(!empty($module_form_parts))
           @foreach($module_form_parts as $key => $value)
