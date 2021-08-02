@@ -42,7 +42,7 @@ return [
     'discount_amount' => 'Jumlah Diskon',
     'no_recent_transactions' => 'Tidak Ada Transaksi Terbaru',
     'final' => 'Final',
-    'invoice_no' => 'No. Faktur',
+    'invoice_no' => 'No. Invoice',
     'customer_name' => 'Nama Pelanggan',
     'payment_status' => 'Status pembayaran',
     'status' => 'Status',

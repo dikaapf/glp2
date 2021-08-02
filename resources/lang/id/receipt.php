@@ -18,7 +18,7 @@ return [
     'discount' => 'Diskon',
     'tax' => 'Pajak',
     'total' => 'Total',
-    'invoice_number' => 'No. Faktur',
+    'invoice_number' => 'No. Invoice',
     'date' => 'Tanggal',
     'receipt_settings' => 'Pengaturan Penerimaan',
     'receipt_settings_mgs' => 'Semua pengaturan terkait penerimaan untuk lokasi ini',
