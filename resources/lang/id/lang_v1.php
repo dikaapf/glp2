@@ -1013,7 +1013,7 @@ return [
 "potential_profit" => "Potensi keuntungan",
 "apply_all" => "Terapkan semua",
 "hide_all_prices" => "Sembunyikan semua harga",
-"select_invoice_layout" => "Pilih tata letak Invoice",
+"select_invoice_layout" => "Pilih Syarat & Ketentuan",
 "max_sales_discount_percent" => "Persen diskon penjualan maks",
 "max_sales_discount_percent_help" => "Persentase diskon maksimum yang dapat diberikan pengguna selama penjualan. Biarkan kosong tanpa kendala",
 "max_discount_error_msg" => "Anda dapat memberikan maks: discount% diskon per penjualan",
