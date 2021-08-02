@@ -69,13 +69,14 @@
 			</div>
 		</div>
 	@endif
-	<div class="col-sm-4">
+	<!-- Disable Status Perbaikan -->
+	<!-- <div class="col-sm-4">
 		<div class="form-group">
 			<label for="repair_status_id">{{__('sale.status') . ':'}}</label>
 			<select name="repair_status_id" class="form-control" id="repair_status_id" required>
 			</select>
 		</div>
-	</div>
+	</div> -->
 </div>
 <div class="row">
 	<div class="col-sm-4">
