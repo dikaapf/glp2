@@ -991,7 +991,7 @@ return [
 "contact_locations" => "Lokasi Kontak",
 "map" => "Peta",
 "both_customer_and_supplier" => "Baik pelanggan & vendor",
-"service" => "Layanan",
+"service" => "Jasa",
 "either_cust_email_or_phone_required" => "Diperlukan nomor email pelanggan atau nomor telepon",
 "either_product_name_or_sku_required" => "Nama produk (hanya untuk tunggal dan kombo) atau sku produk diperlukan",
 "show_invoice_scheme"=>"Tunjukkan Jenis Invoice",
