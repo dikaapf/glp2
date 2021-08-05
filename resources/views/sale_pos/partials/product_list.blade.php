@@ -23,10 +23,11 @@
 				- {{$product->variation}}
 			@endif
 			</small>
-
-			<small class="text-muted">
+			<!-- Disable Keterangan SKU Pada POS Produk List  -->
+			<!-- <small class="text-muted">
 				({{$product->sub_sku}})
-			</small>
+			
+			</small> -->
 		</div>
 			
 		</div>

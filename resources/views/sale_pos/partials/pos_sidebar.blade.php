@@ -17,27 +17,28 @@
 				@foreach($categories as $category)
 					@if(!empty($category['sub_categories']))
 						<optgroup label="{{$category['name']}}">
-							@foreach($category['sub_categories'] as $sc)
-								<i class="fa fa-minus"></i> <option value="{{$sc['id']}}">{{$sc['name']}}</option>
+							@foreach($category['sub_categories'] as $sc)	
+							<i class="fa fa-minus"></i> <option value="{{$sc['id']}}">{{$sc['name']}}</option>
 							@endforeach
 						</optgroup>
 					@endif
 				@endforeach
+				
 			</select>
 		</div>
 	@endif
-
-	@if(!empty($brands))
+	<!-- Disable Tidak isi brand pada POS repair -->
+	<!-- @if(!empty($brands))
 		<div class="col-sm-4" id="product_brand_div">
 			{!! Form::select('size', $brands, null, ['id' => 'product_brand', 'class' => 'select2', 'name' => null, 'style' => 'width:100% !important']) !!}
 		</div>
-	@endif
+	@endif -->
 
 	<!-- used in repair : filter for service/product -->
-	
+
 	<div class="col-md-6 hide" id="product_service_div">
 	<p><b>Wajib di Isi :<b></p>
-		{!! Form::select('is_enabled_stock', ['' => __('messages.all'), 'product' => __('sale.product'), 'service' => __('lang_v1.service')], null, ['id' => 'is_enabled_stock', 'class' => 'select2', 'name' => null, 'style' => 'width:100% !important']) !!}
+		<!-- {!! Form::select('is_enabled_stock', ['' => __('messages.all'), 'product' => __('sale.product'), 'service' => __('lang_v1.service')], null, ['id' => 'is_enabled_stock', 'class' => 'select2', 'name' => null, 'style' => 'width:100% !important']) !!} -->
 	</div>
 
 	<div class="col-sm-4 @if(empty($featured_products)) hide @endif" id="feature_product_div">

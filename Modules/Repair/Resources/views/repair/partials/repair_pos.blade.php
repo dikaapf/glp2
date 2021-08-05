@@ -105,12 +105,13 @@
 			{!! Form::text('repair_serial_no', !empty($repair['repair_serial_no']) ? $repair['repair_serial_no'] : null, ['class' => 'form-control', 'placeholder' => __('repair::lang.serial_no')]); !!}
 		</div>
 	</div>
-	<div class="col-sm-6 mt-15">
+	<!-- Disable checklist -->
+	<!-- <div class="col-sm-6 mt-15">
 		<div class="btn-group mt-5" role="group">
 			<button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#checklist_modal"><i class="fa fa-plus"></i> @lang('repair::lang.pre_repair_checklist')</button>
 			<button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#security_modal"><i class="fa fa-lock"></i> @lang('repair::lang.security')</button>
 		</div>
-	</div>
+	</div> -->
 </div>
 <div class="row">
 	<div class="col-sm-6">
