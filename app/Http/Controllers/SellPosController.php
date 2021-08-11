@@ -1616,24 +1616,24 @@ class SellPosController extends Controller
                 $products->where('VLD.qty_available', '>', 0);
             }
             
-            if (!empty($category_id) && ($category_id != 'all')) {
-                $products->where(function ($query) use ($category_id) {
-                    $query->where('p.category_id', $category_id);
-                    $query->orWhere('p.sub_category_id', $category_id);
-                });
-            }
-            if (!empty($brand_id) && ($brand_id != 'all')) {
-                $products->where('p.brand_id', $brand_id);
-            }
+            // if (!empty($category_id) && ($category_id != 'all')) {
+            //     $products->where(function ($query) use ($category_id) {
+            //         $query->where('p.category_id', $category_id);
+            //         $query->orWhere('p.sub_category_id', $category_id);
+            //     });
+            // }
+            // if (!empty($brand_id) && ($brand_id != 'all')) {
+            //     $products->where('p.brand_id', $brand_id);
+            // }
 
-            if (!empty($request->get('is_enabled_stock'))) {
-                $is_enabled_stock = 0;
-                if ($request->get('is_enabled_stock') == 'product') {
-                    $is_enabled_stock = 1;
-                }
+            // if (!empty($request->get('is_enabled_stock'))) {
+            //     $is_enabled_stock = 0;
+            //     if ($request->get('is_enabled_stock') == 'product') {
+            //         $is_enabled_stock = 1;
+            //     }
 
-                $products->where('p.enable_stock', $is_enabled_stock);
-            }
+            //     $products->where('p.enable_stock', $is_enabled_stock);
+            // }
 
             // Disable tipe pada product list
             // if (!empty($request->get('repair_model_id'))) {
