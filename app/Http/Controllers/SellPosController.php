@@ -1635,9 +1635,10 @@ class SellPosController extends Controller
                 $products->where('p.enable_stock', $is_enabled_stock);
             }
 
-            if (!empty($request->get('repair_model_id'))) {
-                $products->where('p.repair_model_id', $request->get('repair_model_id'));
-            }
+            // Disable tipe pada product list
+            // if (!empty($request->get('repair_model_id'))) {
+            //     $products->where('p.repair_model_id', $request->get('repair_model_id'));
+            // }
 
             $products = $products->select(
                 'p.id as product_id',
