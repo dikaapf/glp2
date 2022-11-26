@@ -125,6 +125,18 @@
 						{{$job_sheet->security_pattern}}
 					</td>
 				</tr>
+				@if(!empty($job_sheet->custom_field_2))
+					<tr>
+						<td colspan="2">
+							<b>
+								{{$repair_settings['job_sheet_custom_field_2'] ?? __('lang_v1.custom_field', ['number' => 2])}}:
+							</b>
+						</td>
+						<td>
+							{{$job_sheet->custom_field_2}}
+						</td>
+					</tr>
+				@endif
 				<tr>
 					<td colspan="2">
 						<b>
@@ -261,18 +273,6 @@
 						@endif
 					</td>
 				</tr>
-				@if(!empty($job_sheet->custom_field_2))
-					<tr>
-						<td colspan="2">
-							<b>
-								{{$repair_settings['job_sheet_custom_field_2'] ?? __('lang_v1.custom_field', ['number' => 2])}}:
-							</b>
-						</td>
-						<td>
-							{{$job_sheet->custom_field_2}}
-						</td>
-					</tr>
-				@endif
 				@if(!empty($job_sheet->custom_field_3))
 					<tr>
 						<td colspan="2">
