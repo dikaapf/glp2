@@ -1,8 +1,10 @@
 /node_modules
 /public/hot
+/public/error_log
 /public/storage
 /storage/*.key
 /storage/
+/storage/logs/*
 /vendor
 /.idea
 /.vagrant
@@ -13,7 +15,7 @@ npm-debug.log
 .env
 /public/uploads/business_logos
 /public/uploads/documents
-/public/uploads/img
+/public/uploads/img/*
 /public/uploads/media
 /public/uploads/invoice_logos
 /public/uploads/UltimatePOS
