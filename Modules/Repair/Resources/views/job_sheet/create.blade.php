@@ -161,24 +161,33 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="form-group">
                             {!! Form::label('product_configuration', __('repair::lang.product_configuration') . ':') !!} <br>
                            {!! Form::textarea('product_configuration', null, ['class' => 'tags-look', 'rows' => 3]); !!}
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="form-group">
                             {!! Form::label('defects', __('repair::lang.problem_reported_by_customer') . ':') !!} <br>
                             {!! Form::textarea('defects', null, ['class' => 'tags-look', 'rows' => 3]); !!}
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="form-group">
                             {!! Form::label('product_condition', __('repair::lang.condition_of_product') . ':') !!} <br>
                             {!! Form::textarea('product_condition', null, ['class' => 'tags-look', 'rows' => 3]); !!}
                         </div>
                     </div>
+                    <div class="col-sm-3">
+                    <div class="form-group">
+                        @php
+                            $custom_field_2_label = !empty($repair_settings['job_sheet_custom_field_2']) ? $repair_settings['job_sheet_custom_field_2'] : __('lang_v1.custom_field', ['number' => 2])
+                        @endphp
+                        {!! Form::label('custom_field_2', $custom_field_2_label . ':') !!}
+                        {!! Form::text('custom_field_2', null, ['class' => 'form-control']); !!}
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -259,15 +268,7 @@
                     <div class="clearfix"></div>
                     <hr>
                     <div class="clearfix"></div>
-                <!-- <div class="col-sm-4">
-                    <div class="form-group">
-                        @php
-                            $custom_field_2_label = !empty($repair_settings['job_sheet_custom_field_2']) ? $repair_settings['job_sheet_custom_field_2'] : __('lang_v1.custom_field', ['number' => 2])
-                        @endphp
-                        {!! Form::label('custom_field_2', $custom_field_2_label . ':') !!}
-                        {!! Form::text('custom_field_2', null, ['class' => 'form-control']); !!}
-                    </div>
-                </div> -->
+                
                 <!-- <div class="col-sm-4">
                     <div class="form-group">
                         @php
